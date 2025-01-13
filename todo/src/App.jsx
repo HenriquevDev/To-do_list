@@ -32,6 +32,7 @@ function App() {
   return (
     <div className="app">
       <h1> Lista de Tarefas </h1>
+      <hr />
       <div className="todo_list">
         {todos.map((todo) => (
           <Todo todo={todo} />
